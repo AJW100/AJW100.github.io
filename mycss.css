@@ -1,4 +1,64 @@
 body {background-color: red;}
 h1 {color: yellow;text-align: center;font-size: 50px;}
-h2 {color: yellow;text-align: center;font-size: 50px;}
 p {color: yellow;font-size: 20px;}
+
+a:link, a:visited {
+	background-color: #FF0000;
+	color: #FFFB00;
+	border: 2px solid #FFFB00;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 55px;
+}
+a:hover, a:active {
+	background-color: FFFB00;
+color:#FF0000;
+}
+
+
+div.navbar
+{
+	width:100px;
+	float:left;
+	padding:5px;
+	border:3px solid yellow;
+	margin-left:20px;
+}
+div.maincontent
+{
+	float:left;
+	width:1000px;
+	padding:20px;
+	border:3px solid yellow;
+	margin-left:20px;
+}
+div.header
+{
+float:top;
+padding:5px;
+border:3px solid yellow;
+}
+div.footer
+{
+float:left;
+padding:5px;
+border:3px solid yellow;
+width:1200px;
+}
+
+table, th, td {
+border: 1px solid yellow;
+width: 1000px;
+height: 20px;
+}
+
+tr:nth-child(even){
+	background-color: #fffb00;
+	color: #ff0000
+}
+tr:nth-child(odd){
+	background-color: #ff0000;
+	color: #fffb00
+}
